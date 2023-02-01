@@ -3,7 +3,7 @@
  * 
  * Prueba (sin añadir código) a:
  * - Visualizar el resultado de dar la vuelta a cada cadena de texto
- * - Encontrar casos en los que 
+ * - Encontrar casos en los que falla
  *
  */
 public class DepuracionConcordancia {
@@ -16,7 +16,7 @@ public class DepuracionConcordancia {
 	
 	/**
 	 * Comprueba si una cadena dada concuerda con la cadena objetivo al leerla del revés.
-	 * @param cadena
+	 * @param cadena de texto a comprobar
 	 * @return true si hay coincidencia
 	 */
 	
