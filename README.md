@@ -34,10 +34,10 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
       * Con herencia
     * Conceptos:
       * Orientación a objetos (métodos, clases, objetos)
-      * Herencia
-      * Excepciones
-      * Visibilidad
-      * Depuración
+      * Herencia básica
+      * Excepciones (motivación, creación y declaración en la firma)
+      * ~Depuración~ (lo dejamos para la siguiente clase)
+      * ~Visibilidad~ (lo dejamos para la siguiente clase)
   * Ejercicios:
     * Desarrollar y ampliar la calculadora vista en clase
       * Guardar registro de operaciones
