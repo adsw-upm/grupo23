@@ -72,4 +72,6 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
     * Pruebas y depuración (moodle)
   * Ejercicios:
     * Dibujar el modelo de clases para las diferentes soluciones de calculadora
+    * Continuar las mejoras a calculadora de la clase anterior
+    * Opcional: modelar las clases nuevas de las mejoras (p.e., el menú) y su relación con el resto.
     
