@@ -46,3 +46,30 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
         * Acepta comandos del usuario, línea a línea
         * Al iniciar, el usuario puede elegir el tipo de calculadora a usar
       * Números complejos (avanzado)
+  * Lecturas recomendadas:
+    * Pruebas y depuración (moodle)
+    * Estructuras de datos (moodle)
+
+* Día 3
+  * Clase:
+    * Conceptos:
+      * Pruebas y depuración
+      * Orientación a objetos
+        * Encapsulamiento
+        * Clasificación
+        * Generalización
+        * Polimorfismo
+      * Modelado (UML **muy** básico)
+        * Diagramas de clases
+        * Diagramas de objetos
+    * Práctico
+      * Continuación calculadora
+        * Depuración
+        * Pruebas
+      * Modelo de calculadora
+  * Lecturas recomendadas
+    * Modelado (moodle)
+    * Pruebas y depuración (moodle)
+  * Ejercicios:
+    * Dibujar el modelo de clases para las diferentes soluciones de calculadora
+    
