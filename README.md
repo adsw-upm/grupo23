@@ -62,10 +62,10 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
       * Encapsulamiento
       * Clasificación
       * Generalización
-      * Polimorfismo
+      * ~Polimorfismo~ (a repasar con las transparencias, y lo veremos mediante ejercicios)
     * Modelado (UML **muy** básico)
       * Diagramas de clases
-      * Diagramas de objetos
+      * ~Diagramas de objetos~ (para el próximo día)
   * Práctico
     * Continuación calculadora
       * Depuración
@@ -79,3 +79,31 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
   * Continuar las mejoras a calculadora de la clase anterior
   * Opcional: modelar las clases nuevas de las mejoras (p.e., el menú) y su relación con el resto.
 
+### Día 4
+
+* Clase:
+  * Conceptos:
+    * Modelado (UML **muy** básico)
+      * Diagramas de clases
+      * Diagramas de objetos
+  * Práctico
+    * Modelo de red social (instagram)
+* Lecturas recomendadas
+  * Modelado (moodle)
+  * Pruebas y depuración (moodle)
+* Ejercicios:
+  * Enunciado laboratorio 0
+
+### Día 5
+
+* Clase:
+  * Conceptos:
+    * Complejidad
+    * Algoritmo vs programa
+
+* Lecturas recomendadas
+  * Algoritmos y complejidad
+
+* Ejercicios:
+ * Java Exception Handling (HackerRank)
+ * Pairs (HackerRank)
