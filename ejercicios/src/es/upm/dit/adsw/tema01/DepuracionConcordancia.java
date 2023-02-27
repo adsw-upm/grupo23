@@ -1,5 +1,8 @@
+package es.upm.dit.adsw.tema01;
+
 /**
  * Ejercicio para practicar depuración.
+ * 
  * 
  * Prueba (sin añadir código) a:
  * - Visualizar el resultado de dar la vuelta a cada cadena de texto
