@@ -24,6 +24,7 @@ import java.util.List;
  *         T(n) = O(n * ...)
  *     
  *  8. Comprobar si el cálculo coincide con el del paso 6
+ *  9. Comprobar si el cálculo coincide con la solución al final del fichero
  *
  * 
  * El código de estos ejercicios utiliza nombres de funciones y variables poco 
