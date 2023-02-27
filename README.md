@@ -100,6 +100,8 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
   * Conceptos:
     * Complejidad
     * Algoritmo vs programa
+  * Ejercicios:
+    * Comparación de los algoritmos de Parejas (paquete `es.upm.dit.adsw.tema02.parejas` en los ejercicios)
 
 * Lecturas recomendadas
   * Algoritmos y complejidad
@@ -107,3 +109,35 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
 * Ejercicios:
  * Java Exception Handling (HackerRank)
  * Pairs (HackerRank)
+
+### Día 6
+
+* Clase
+  * Conceptos
+    * Complejidad
+      * Cálculo de la fórmula recursiva
+      * Estimación a partir de `T(n)`
+    * Ordenación
+      * Selección
+      * Inserción
+      * Bonus: *por conteo*
+  * Ejercicios
+    * Cálculo de complejidad de los algoritmos de ordenación
+* Lecturas recomendadas
+  * Algoritmos y complejidad
+  * Complejidad (*Análisis de Algoritmos – Complejidad. José A. Mañas*)
+
+### Día 7
+
+* Clase
+  * Ejercicios
+    * Complejidad (ver `es.upm.dit.adsw.tema02.EjemplosCalculo`)
+      * Cálculo de `T(n)`
+      * Varios tipos de funciones: `O(1)`, `O(n)`, `O(log(n))`, `O(n^2)`.
+  * Conceptos 
+    * Complejidad
+      * Aproximación a "divide y vencerás". Combinación de dos arrays ordenados
+    * Ordenación
+      * Repaso de los tipos de ordenación
+      * Burbuja
+      * Introducción a la combinación en `mergesort`
