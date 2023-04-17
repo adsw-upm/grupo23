@@ -100,7 +100,7 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
   * Conceptos:
     * Complejidad
     * Algoritmo vs programa
-  * Ejercicios:
+    * Ejercicios:
     * Comparación de los algoritmos de Parejas (paquete `es.upm.dit.adsw.tema02.parejas` en los ejercicios)
 
 * Lecturas recomendadas
@@ -141,3 +141,44 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
       * Repaso de los tipos de ordenación
       * Burbuja
       * Introducción a la combinación en `mergesort`
+* Lecturas recomendadas
+  * Ordenación (burbuja, selección e inserción)
+
+### Día 8
+
+* Clase
+  * Conceptos
+    * Ordenación
+      * Mergesort (divide y vencerás)
+      * Quicksort (fundamentos)
+    * Complejidad
+      * Aplicación de "divide y vencerás". Cálculo de complejidad
+* Ejercicios recomendados
+  * Laboratorio y práctica
+* Lecturas recomendadas
+  * Ordenación (repaso de las anteriores y mergesort)
+
+### Día 9
+
+* Clase
+
+* Lecturas recomendadas
+  * Ordenación (repaso de las anteriores y mergesort)
+  
+  
+  
+### Conceptos que hay que repasar
+
+* Estabilidad en ordenación
+
+
+### 2023/04/12
+
+* Clase
+  * Conceptos:
+    * Conceptos de grafos
+      * Nodos, vértices, tipos de aristas (dirección), pesos, caminos, ciclos
+    * Problemas a resolver con grafos
+* Lecturas recomendadas
+  * Transparencias sobre Prim 
+  * Ejemplo de aplicación de Prim
