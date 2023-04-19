@@ -179,6 +179,39 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
     * Conceptos de grafos
       * Nodos, vértices, tipos de aristas (dirección), pesos, caminos, ciclos
     * Problemas a resolver con grafos
+    * Algoritmo de Prim
+    * Algoritmo de Dijkstra
 * Lecturas recomendadas
   * Transparencias sobre Prim 
   * Ejemplo de aplicación de Prim
+  
+### 2023/04/17
+
+* Clase
+  * Conceptos
+    * Repaso del modelo de grafos (Grafo, Nodo, Arista)
+  * Parte práctica
+    * Introducción al modelo simplificado de grafos en el paquete `tema03` (en los laboratorios/prácticas se usará un modelo diferente)
+    * Razonamiento de la evolución de la clase Grafo hasta Grafov3
+  * Ejercicios
+    * Leer y entender el código de `metodoMisterioso` en Grafov3
+    * Relacionar el código con alguno de los algoritmos vistos
+* Lecturas recomendadas
+  * Transparencias sobre Prim 
+  * Ejemplo de aplicación de Prim
+
+### 2023/04/19
+
+* Clase
+  * Conceptos
+    * Repaso de Dijkstra
+  * Práctica
+    * Implementar Dijkstra con el modelo de grafos Grafov3 y sin PQ
+* Ejercicios 
+  * Devolver caminos y pesos en Dijkstra
+  * Implementar Dijkstra con la PQ de las transparencias (fichero "Algoritmo de Dijkstra" en moodle)
+  * Implementar Dijkstra con el modelo de grafos de las transparencias (fichero "Algoritmo de Dijkstra" en moodle)
+
+* Lecturas recomendadas
+  * Transparencias sobre Dijkstra
+  * Ejemplo de aplicación de Dijkstra
