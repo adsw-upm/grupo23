@@ -207,6 +207,7 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
     * Repaso de Dijkstra
   * Práctica
     * Implementar Dijkstra con el modelo de grafos Grafov3 y sin PQ
+
 * Ejercicios 
   * Devolver caminos y pesos en Dijkstra
   * Implementar Dijkstra con la PQ de las transparencias (fichero "Algoritmo de Dijkstra" en moodle)
@@ -215,3 +216,17 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
 * Lecturas recomendadas
   * Transparencias sobre Dijkstra
   * Ejemplo de aplicación de Dijkstra
+  
+### 2023/04/24
+
+* Clase
+  * Conceptos
+    * Concurrencia
+    * Paralelismo (`concurrencia != paralelismo`)
+    * Exclusión mutua
+    * Estados de una hebra
+    * Hebras en Java
+      * class `Thread`
+      * interface `Runnable`
+  * Práctica
+    * `es.upm.dit.adsw.tema04.EjemploInicial`

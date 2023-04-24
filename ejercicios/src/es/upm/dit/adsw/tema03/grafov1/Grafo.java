@@ -24,6 +24,7 @@ public class Grafo {
 	
 	public static void main(String[] args) {
 		Grafo g = new Grafo();
+		
 		Nodo n0 = new Nodo(0);
 		Nodo n1 = new Nodo(1);
 		Nodo n2 = new Nodo(2);

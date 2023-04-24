@@ -58,16 +58,19 @@ public class Grafo extends es.upm.dit.adsw.tema03.grafov2.Grafo {
 				}
 			}
 			Arista minima = opciones.remove(posMin);
+			
 			int id1 = minima.getN1().getId();
 			int id2 = minima.getN2().getId();
 			if(visitados.contains(id1) && visitados.contains(id2)) {
 				continue;
 			}
 			salida.add(minima);
+			
 			int otro = id1;
 			if(visitados.contains(id1)) {
 				otro = id2;
 			}
+			
 			visitados.add(otro);
 			for(Arista a: this.getNodo(otro).getAristas()) {
 				opciones.add(a);
