@@ -230,3 +230,11 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
       * interface `Runnable`
   * Práctica
     * `es.upm.dit.adsw.tema04.EjemploInicial`
+
+### 2023/05/03
+
+* Clase
+  * Conceptos
+    * Hebras en Java (diferentes opciones)
+  * Práctica
+    * Implementar tareas en Java, desde cero (`es.upm.dit.adsw.tema04.SepararTareas`)
