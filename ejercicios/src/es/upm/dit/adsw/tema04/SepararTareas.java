@@ -15,35 +15,35 @@ import java.util.Map.Entry;
 public class SepararTareas {
 	
 	static class Procesador extends Thread {
-		Map<String, List<Integer>> trozo;
+		Map<String, List<Integer>> parte;
 		Map<Integer, List<String>> resultado;
-		public Procesador(Map<String, List<Integer>> trozo) {
-			this.trozo = trozo;
+		public Procesador(Map<String, List<Integer>> parte) {
+			this.parte = parte;
 		}
 		
 		public void run() {
-			this.resultado = SepararTareas.invertirDiccionario(this.trozo);
+			this.resultado = SepararTareas.invertirDiccionario(this.parte);
 		}
 	}
 	
 	public static List<Map<String, List<Integer>>> separar(Map<String, 
-			                                     List<Integer>> entrada, int nTrozos) {
+			                                     List<Integer>> entrada, int npartes) {
 		
-		int nElementos = entrada.size() / nTrozos;
+		int nElementos = entrada.size() / npartes;
 		List<Map<String, List<Integer>>> salida = new ArrayList<>();
 		
-		Map<String, List<Integer>> trozo = new HashMap<>();
+		Map<String, List<Integer>> parte = new HashMap<>();
 		
 		for(Entry<String, List<Integer>> fila: entrada.entrySet()) {
-			if(trozo.size() >= nElementos) {
-				salida.add(trozo);
-				trozo = new HashMap<>();
+			if(parte.size() >= nElementos) {
+				salida.add(parte);
+				parte = new HashMap<>();
 			}
-			trozo.put(fila.getKey(), fila.getValue());
+			parte.put(fila.getKey(), fila.getValue());
 		}
 		
-		if(!trozo.isEmpty()) {
-			salida.add(trozo);
+		if(!parte.isEmpty()) {
+			salida.add(parte);
 		}
 		
 		return salida;
@@ -63,10 +63,10 @@ public class SepararTareas {
 		return salida;
 	}
 	
-	public static Map<Integer, List<String>> juntarResultados(List<Map<Integer, List<String>>> trozos) {
+	public static Map<Integer, List<String>> juntarResultados(List<Map<Integer, List<String>>> partes) {
 		Map<Integer, List<String>> juntos = new HashMap<>();
-		for(Map<Integer, List<String>> trozo: trozos) {
-			for(Entry<Integer, List<String>> e: trozo.entrySet()) {
+		for(Map<Integer, List<String>> parte: partes) {
+			for(Entry<Integer, List<String>> e: parte.entrySet()) {
 			   Integer clave = e.getKey();
 			   List<String> valores = e.getValue();
 			   if(!juntos.containsKey(clave) ) {
@@ -89,7 +89,7 @@ public class SepararTareas {
 		return resultados;
 	}
 	
-	public static Map<Integer, List<String>> procesarSecuencial(Map<String, List<Integer>> ejemplo, int nPartes) throws InterruptedException {
+	public static Map<Integer, List<String>> procesarSecuencial(Map<String, List<Integer>> ejemplo, int nPartes) {
 		List<Map<String, List<Integer>>> partes = separar(ejemplo, nPartes);
 
 		List<Map<Integer, List<String>>> resultados = new ArrayList<>();
@@ -103,12 +103,12 @@ public class SepararTareas {
 		return resultado;
 	}
 	
-	public static Map<Integer, List<String>> procesarConcurrente(Map<String, List<Integer>> ejemplo, int nTrozos) throws InterruptedException {
-		List<Map<String, List<Integer>>> trozos = separar(ejemplo, nTrozos);
+	public static Map<Integer, List<String>> procesarConcurrente(Map<String, List<Integer>> ejemplo, int npartes) throws InterruptedException {
+		List<Map<String, List<Integer>>> partes = separar(ejemplo, npartes);
 
 		List<Procesador> tareas = new ArrayList<>();
-		for(Map<String, List<Integer>> trozo: trozos) {
-			Procesador p = new Procesador(trozo);
+		for(Map<String, List<Integer>> parte: partes) {
+			Procesador p = new Procesador(parte);
 			p.start();
 			tareas.add(p);
 		}
