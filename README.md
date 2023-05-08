@@ -238,3 +238,15 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
     * Hebras en Java (diferentes opciones)
   * Práctica
     * Implementar tareas en Java, desde cero (`es.upm.dit.adsw.tema04.SepararTareas`)
+
+### 2023/05/08
+
+* Clase
+  * Conceptos
+    * Exclusión mutua
+    * Condiciones de carrera
+    * Introducción a cerrojos
+    * Bloques `synchronized`
+  * Práctica
+    * Modificación de la clase anterior para incorporar acceso concurrente (`es.upm.dit.adsw.tema04.SepararTareasAccesoConcurrente`)
+    * Añadir exclusión mutua para evitar condiciones de carrera
