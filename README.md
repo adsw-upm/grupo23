@@ -250,3 +250,21 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
   * Práctica
     * Modificación de la clase anterior para incorporar acceso concurrente (`es.upm.dit.adsw.tema04.SepararTareasAccesoConcurrente`)
     * Añadir exclusión mutua para evitar condiciones de carrera
+
+### 2023/05/10
+* Clase
+  * Conceptos
+    * Interbloqueos
+    * Inanición
+    * `wait`, `notify` y `notifyAll`
+    * métodos `synchronized` (y cerrojos)
+    * liberación de recursos
+    * El patrón Productor-Consumidor
+    * Repaso general de enfoques
+      * Secuencial
+      * Concurrente (sin sincronización)
+      * Exclusión mutua
+      * Exclusión mutua + liberación de recursos
+  * Práctica
+    * Modificar el código de la clase anterior para utilizar un monitor
+    * Problema de los filósofos
