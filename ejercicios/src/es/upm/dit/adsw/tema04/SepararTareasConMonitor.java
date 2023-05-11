@@ -9,7 +9,8 @@ import java.util.Map.Entry;
 /**
  * Ejemplo de inversión de un diccionario utilizando un monitor.
  * 
- * El monitor utilizará internamente
+ * El monitor gestionará las hebras para procesar el diccionario, además de los 
+ * datos necesarios para guardar las partes del diccionario y los resultados parciales.
  */
 
 public class SepararTareasConMonitor {
