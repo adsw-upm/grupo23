@@ -255,10 +255,8 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
 * Clase
   * Conceptos
     * Interbloqueos
-    * Inanición
     * `wait`, `notify` y `notifyAll`
     * métodos `synchronized` (y cerrojos)
-    * liberación de recursos
     * El patrón Productor-Consumidor
     * Repaso general de enfoques
       * Secuencial
@@ -266,5 +264,48 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
       * Exclusión mutua
       * Exclusión mutua + liberación de recursos
   * Práctica
-    * Modificar el código de la clase anterior para utilizar un monitor
+    * Productor-consumidor
+
+### 2023/05/17
+* Clase
+  * Conceptos
+    * Repaso de mecanismos
+      * Bloques sincronizados
+      * Métodos sincronizados
+    * Bloqueos vivos
+      * Liberación de recursos
+      * Inanición
+    * Condiciones de Coffman
+    * Mecanismos alternativos
+      * Semáforos
+      * Cerrojos (ya vistos)
+      * Condiciones
+  * Práctica
     * Problema de los filósofos
+      * Con inter-bloqueo
+      * Con semáforo
+      * Con un monitor de recursos
+      * ~Con espera activa~ (para siguiente día)
+* Lecturas recomendadas
+  * Fiabilidad
+
+### Clase extra
+
+* Problemas
+  * Problema de los caníbales
+    * Cocinero espera
+    * Caníbales lo despiertan
+    * Primer caníbal lo despierta
+    * Orden de entrada
+    * Jefe caníbal
+
+### 2023/05/22
+
+* Problemas
+  * Productor-consumidor
+    * Sin limitación (unbounded, asynchronous)
+    * Con tamaño máximo (bounded, synchronous)
+    * Con tamaño máximo y orden de llegada
+    * Con prioridad consumidor / productor
+  * Problema del puente
+  * Lectores y escritores

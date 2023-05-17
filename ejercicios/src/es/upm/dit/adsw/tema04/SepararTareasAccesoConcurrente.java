@@ -15,14 +15,6 @@ import java.util.Map.Entry;
 
 public class SepararTareasAccesoConcurrente {
 	
-	static class MisDatos {
-		int contador = 0;
-		
-		synchronized void actualizar() {
-			
-		}
-	}
-	
 	static class Procesador extends Thread {
 		Map<String, List<Integer>> parte;
 		
@@ -76,7 +68,7 @@ public class SepararTareasAccesoConcurrente {
 		return salida;
 	}
 	
-	public static Map<Integer, List<String>> procesarConcurrente(Map<String, List<Integer>> ejemplo, int npartes)  {
+	public static Map<Integer, List<String>> procesarConcurrente(Map<String, List<Integer>> ejemplo, int npartes) throws InterruptedException  {
 		List<Map<String, List<Integer>>> partes = separar(ejemplo, npartes);
 		
 		Map<Integer, List<String>> resultado = new HashMap<>();
@@ -113,33 +105,12 @@ public class SepararTareasAccesoConcurrente {
 		
 		Map<Integer, List<String>> resultado = procesarConcurrente(ejemplo, 5);
 		
-		
 		System.out.println(resultado.size());
 		for(Entry<Integer, List<String>> e: resultado.entrySet()) {
 			System.out.println("# Número de países que han recibido " + e.getKey() + " punto(s): " + e.getValue().size());
 		}
 		
 	}
-	
-	
-	MisDatos datos = new MisDatos();
-//	synchronized(datos) {
-	datos.actualizar();
-//	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 
 }
