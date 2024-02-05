@@ -1,7 +1,8 @@
-public class CalculadoraHerencia {
+package es.upm.dit.adsw.tema01.Calculadora;
+public class CalculadoraExcepcionHerencia {
 	int ans = 0;
 
-	public CalculadoraHerencia(int ans) {
+	public CalculadoraExcepcionHerencia(int ans) {
 		this.ans = ans;
 	}
 	
@@ -27,7 +28,7 @@ public class CalculadoraHerencia {
 	}
 }
 
-class CalculadoraCientifica extends CalculadoraHerencia {
+class CalculadoraCientifica extends CalculadoraExcepcionHerencia {
 	
 	public CalculadoraCientifica(int a) {
 		super(a);

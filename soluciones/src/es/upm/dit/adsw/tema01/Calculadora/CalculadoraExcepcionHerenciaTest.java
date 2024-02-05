@@ -1,3 +1,4 @@
+package es.upm.dit.adsw.tema01.Calculadora;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
@@ -6,8 +7,8 @@ import org.junit.jupiter.api.Test;
 
 class CalculadoraCientificaTest  {
 	@Test
-	void test() {
-		CalculadoraHerencia calc = new CalculadoraHerencia(0);
+	void test() throws OperationException {
+		CalculadoraExcepcionHerencia calc = new CalculadoraExcepcionHerencia(0);
 		calc.calcular("+", 5);
 		assertEquals(calc.ans, 5);
 		calc.calcular("-", 2);
@@ -15,8 +16,8 @@ class CalculadoraCientificaTest  {
 	}
 	
 	@Test
-	void testCientifica() {
-		CalculadoraHerencia calc = new CalculadoraCientifica(10);
+	void testCientifica() throws OperationException {
+		CalculadoraExcepcionHerencia calc = new CalculadoraCientifica(10);
 		calc.calcular("^", 0);
 		assertEquals(calc.ans, 1);
 		calc = new CalculadoraCientifica(3);

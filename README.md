@@ -38,10 +38,22 @@ Tabla de contenido visto en clase y problemas propuestos para ADSW
 * Ejercicios:
   * Ampliar calculadora
     * Ejecutar línea a línea
-    * 
   * HackerRank:
     * E1 Recorrido de Arrays
     * E1 Listas
-* Transparencias en moodle:
-  * Modelado orientado a objetos
-  * Estructuras de datos en Java
+* Lecturas recomendadsa:
+  * Transparencias en moodle:
+    * Modelado orientado a objetos
+    * Estructuras de datos en Java
+
+### Día 2 (5 Febrero)
+
+Continuación de la clase anterior
+
+* Ejercicios:
+  * Desarrollar la calculadora desde un proyecto vacío
+  * Hackerrank:
+  	* E4 Listas
+
+
+

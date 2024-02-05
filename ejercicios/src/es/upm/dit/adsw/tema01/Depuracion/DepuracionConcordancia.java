@@ -1,4 +1,4 @@
-package es.upm.dit.adsw.tema01;
+package es.upm.dit.adsw.tema01.Depuracion;
 
 /**
  * Ejercicio para practicar depuración.
