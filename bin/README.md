@@ -56,26 +56,14 @@ El repositorio se divide en dos carpetas principales:
 * Ejercicios:
   * Desarrollar la calculadora desde un proyecto vacío
   * Hackerrank:
-    * E4 Listas
+  	* E4 Listas
 
 
 ### Día 3 (7 Febrero)
 
-* Clase: Problemas de introducción a ordenación
-  * Práctico:
-    * Descarga de este repositorio en eclipse
-    * Desarrollo de pruebas para la calculadora
-    * Ejercicios Clase3
-  * Conceptos:
-    * Pruebas y depuración
-    * Introducción a la intuición del orden de complejidad
-    * Introducción a algoritmos básicos de ordenación
+* Clase: Pruebas y depuración
 * Ejercicios:
-  * Básicos
-    * Descarga del repositorio 
-    * Completar los ejercicios hechos en clase sin mirar la solución
-  * Avanzados
-    * Completar la calculadora para que permita introducir operaciones línea a línea
-    * `es.upm.dit.adsw.tema01.EjeciciosAvanzadosClase3`
-* Lecturas recomendadas
-  * Moodle: Pruebas y depuración en Java
+  * 
+
+
+*
