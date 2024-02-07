@@ -1,4 +1,4 @@
-package es.upm.dit.adsw.tema01;
+package es.upm.dit.adsw.g23.ejercicios.tema01;
 
 public class EjerciciosAvanzadosClase3 {
 	/**

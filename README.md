@@ -2,11 +2,16 @@
 
 Tabla de contenido visto en clase y problemas propuestos para ADSW.
 
-El repositorio se divide en dos carpetas principales:
-- `clases`, que incluye el código utilizado durante las clases. Posiblemente haya partes incompletas o que no funcionen completamente.
-- `ejercicios`, donde se incluye código incompleto. 
+El código del repositorio se divide en dos paquetes principales:
+- `es.upm.dit.adsw.g23.clases`, que incluye el código utilizado durante las clases. Posiblemente haya partes incompletas o que no funcionen completamente.
+- `es.upm.dit.adsw.g23.ejercicios`, donde se incluye código incompleto. 
 
 ## Clases
+
+Descripción general del contenido de cada clase como referencia para el estudio.
+Cada día incluye los conceptos vistos y los ejercicios prácticos realizados, así como ejercicios y punteros a material para el estudio.
+
+**Nota**: Puede tomarse como referencia, pero puede haber algún error u omisiones.
 
 ### Día 0 (29 enero)
 
