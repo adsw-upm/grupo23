@@ -84,3 +84,19 @@ Cada día incluye los conceptos vistos y los ejercicios prácticos realizados, a
     * `es.upm.dit.adsw.tema01.EjeciciosAvanzadosClase3`
 * Lecturas recomendadas
   * Moodle: Pruebas y depuración en Java
+
+### Día 4 (12 Febrero)
+
+* Clase: Problemas de ordenación
+  * Práctico:
+    * Repaso soluciones Clase 3
+    * Ejercicios Clase4: búsqueda binaria y una opción de ordenación
+  * Conceptos:
+    * Pruebas y depuración
+    * Conceptos básicos de complejidad
+    * Algoritmos básicos de ordenación
+    
+* Lecturas recomendadas
+  * Moodle: Pruebas y depuración en Java
+  * Moodle: Estructuras de datos en Java
+  * Moodle: Complejidad

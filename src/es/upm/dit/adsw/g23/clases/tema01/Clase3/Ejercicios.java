@@ -7,7 +7,7 @@ public class Ejercicios {
 	 * @param numeros array con los números a comparar
 	 * @return número mayor en el array
 	 */
-	public static int max(Integer[] numeros) {
+	public int max(Integer[] numeros) {
 		return 0;
 	}
 
@@ -17,7 +17,7 @@ public class Ejercicios {
 	 * @param numeros array con los números a comparar
 	 * @return número mayor en el array
 	 */
-	public static int min(Integer[] numeros) {
+	public int min(Integer[] numeros) {
 		return 0;
 	}
 
@@ -27,7 +27,7 @@ public class Ejercicios {
 	 * @param numeros array ordenado con los números a comparar
 	 * @return número mayor en el array
 	 */
-	public static Integer maxOrdenados(Integer[] numeros) {
+	public Integer maxOrdenados(Integer[] numeros) {
 		return 0;
 	}
 
@@ -38,7 +38,7 @@ public class Ejercicios {
 	 * @param tamano  número de elementos a devolver
 	 * @return número mayor en el array
 	 */
-	public static Integer[] top(Integer[] numeros, int tamano) {
+	public Integer[] top(Integer[] numeros, int tamano) {
 		return null;
 	}
 
@@ -50,7 +50,7 @@ public class Ejercicios {
 	 * @param tamano  número de elementos a devolver
 	 * @return número mayor en el array
 	 */
-	public static Integer[] topOrdenados(Integer[] numeros, int tamano) {
+	public Integer[] topOrdenados(Integer[] numeros, int tamano) {
 		return null;
 	}
 
@@ -61,7 +61,7 @@ public class Ejercicios {
 	 * @param notas
 	 * @return
 	 */
-	public static int media(Integer[] notas) {
+	public int media(Integer[] notas) {
 		return 0;
 	}
 
@@ -72,7 +72,7 @@ public class Ejercicios {
 	 * @param puntuaciones
 	 * @return
 	 */
-	public static int mediaSinExtremos(Integer[] puntuaciones) {
+	public int mediaSinExtremos(Integer[] puntuaciones) {
 		return 0;
 	}
 
@@ -83,7 +83,7 @@ public class Ejercicios {
 	 * @param objetivo a buscar
 	 * @return true si se encuentra la puntuación objetivo
 	 */
-	public static boolean incluye(Float[] notas, float objetivo) {
+	public boolean incluye(Float[] notas, float objetivo) {
 		return false;
 	}
 
@@ -94,7 +94,7 @@ public class Ejercicios {
 	 * @param objetivo a buscar
 	 * @return true si se encuentra la puntuación objetivo
 	 */
-	public static boolean incluyeOrdenadas(Float[] puntuaciones, float objetivo) {
+	public boolean incluyeOrdenadas(Float[] puntuaciones, float objetivo) {
 		return false;
 	}
 
@@ -104,7 +104,7 @@ public class Ejercicios {
 	 * @param numeros
 	 * @return
 	 */
-	public static boolean estaOrdenado(Integer[] numeros) {
+	public boolean estaOrdenado(Integer[] numeros) {
 		return false;
 	}
 	
@@ -114,7 +114,7 @@ public class Ejercicios {
 	 * @param numeros array de números a ordenar
 	 * @return array ordenado de elementos
 	 */
-	public static Integer[] ordenar(Integer[] numeros) {
+	public Integer[] ordenar(Integer[] numeros) {
 		return null;
 	}
 }

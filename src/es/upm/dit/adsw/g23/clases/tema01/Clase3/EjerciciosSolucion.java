@@ -9,7 +9,7 @@ public class EjerciciosSolucion {
 	 * @param numeros array con los números a comparar
 	 * @return número mayor en el array
 	 */
-	public static int max(Integer[] numeros) {
+	public int max(Integer[] numeros) {
 		// TODO: Sería interesante añadir excepciones
 		int m = Integer.MIN_VALUE;
 		for (int numero : numeros) {
@@ -26,7 +26,7 @@ public class EjerciciosSolucion {
 	 * @param numeros array con los números a comparar
 	 * @return número mayor en el array
 	 */
-	public static int min(Integer[] numeros) {
+	public int min(Integer[] numeros) {
 		// TODO: Sería interesante añadir excepciones
 		int m = Integer.MAX_VALUE;
 		for (int numero : numeros) {
@@ -43,7 +43,7 @@ public class EjerciciosSolucion {
 	 * @param numeros array ordenado con los números a comparar
 	 * @return número mayor en el array
 	 */
-	public static Integer maxOrdenados(Integer[] numeros) {
+	public Integer maxOrdenados(Integer[] numeros) {
 		return numeros[numeros.length - 1];
 	}
 
@@ -54,7 +54,7 @@ public class EjerciciosSolucion {
 	 * @param tamano  número de elementos a devolver
 	 * @return número mayor en el array
 	 */
-	public static Integer[] topV1(Integer[] numeros, int tamano) {
+	public Integer[] topV1(Integer[] numeros, int tamano) {
 		// Algoritmo muy ineficiente. Lo analizaremos en clase.
 		Integer[] top = new Integer[tamano];
 		Integer[] pos_top = new Integer[tamano];
@@ -102,7 +102,7 @@ public class EjerciciosSolucion {
 	 * @param tamano  número de elementos a devolver
 	 * @return número mayor en el array
 	 */
-	public static Integer[] topV2(Integer[] numeros, int tamano) {
+	public Integer[] topV2(Integer[] numeros, int tamano) {
 		Integer[] top = new Integer[tamano];
 		for (int i = 0; i < tamano; i++) {
 			top[i] = numeros[i];
@@ -131,7 +131,7 @@ public class EjerciciosSolucion {
 	 * @param tamano  número de elementos a devolver
 	 * @return número mayor en el array
 	 */
-	public static Integer[] topV2_1(Integer[] numeros, int tamano) {
+	public Integer[] topV2_1(Integer[] numeros, int tamano) {
 		// Versión alternativa a la anterior.
 		Integer[] top = new Integer[tamano];
 		for (int i = 0; i < tamano; i++) {
@@ -171,7 +171,7 @@ public class EjerciciosSolucion {
 	 * @param tamano  número de elementos a devolver
 	 * @return número mayor en el array
 	 */
-	public static Integer[] topOrdenados(Integer[] numeros, int tamano) {
+	public Integer[] topOrdenados(Integer[] numeros, int tamano) {
 		Integer[] top = new Integer[tamano];
 		for (int i = 0; i < tamano; i++) {
 			top[i] = numeros[numeros.length - 1 - i];
@@ -188,7 +188,7 @@ public class EjerciciosSolucion {
 	 * @return
 	 */
 
-	public static int media(Integer[] notas) {
+	public int media(Integer[] notas) {
 		int suma = 0;
 		int minima = Integer.MAX_VALUE;
 		for (Integer nota : notas) {
@@ -207,7 +207,7 @@ public class EjerciciosSolucion {
 	 * @param puntuaciones
 	 * @return
 	 */
-	public static int mediaSinExtremosV1(Integer[] puntuaciones) {
+	public int mediaSinExtremosV1(Integer[] puntuaciones) {
 		// Este código no funciona bien. Comprueba los tests e intenta arreglarlo.
 		// Nuestra definición de media incluye eliminar la menor
 		int sumaSinMinimo = media(puntuaciones) * (puntuaciones.length-1);
@@ -222,7 +222,7 @@ public class EjerciciosSolucion {
 	 * @param puntuaciones
 	 * @return
 	 */
-	public static int mediaSinExtremosV2(Integer[] puntuaciones) {
+	public int mediaSinExtremosV2(Integer[] puntuaciones) {
 		// En este caso, en lugar de recorrer el array varias veces para encontrar
 		// máximo y mínimo,
 		// vamos a calcular todo de una sola pasada.
@@ -248,7 +248,7 @@ public class EjerciciosSolucion {
 	 * @param objetivo     a buscar
 	 * @return true si se encuentra la puntuación objetivo
 	 */
-	public static boolean incluye(Float[] notas, float objetivo) {
+	public boolean incluye(Float[] notas, float objetivo) {
 		for (Float nota : notas) {
 			if (nota == objetivo) {
 				return true;
@@ -263,7 +263,7 @@ public class EjerciciosSolucion {
 	 * @param numeros
 	 * @return
 	 */
-	public static boolean estaOrdenado(Integer[] numeros) {
+	public boolean estaOrdenado(Integer[] numeros) {
 		for (int i = 1; i < numeros.length; i++) {
 			if (numeros[i] < numeros[i - 1]) {
 				return false;
@@ -280,7 +280,7 @@ public class EjerciciosSolucion {
 	 * @param objetivo     a buscar
 	 * @return true si se encuentra la puntuación objetivo
 	 */
-	public static boolean incluyeOrdenadas(Float[] puntuaciones, float objetivo) {
+	public boolean incluyeOrdenadas(Float[] puntuaciones, float objetivo) {
 		// Pendiente para la clase 4
 		return false;
 	}
@@ -291,7 +291,7 @@ public class EjerciciosSolucion {
 	 * @param numeros array de números a ordenar
 	 * @return array ordenado de elementos
 	 */
-	public static Integer[] ordenar(Integer[] numeros) {
+	public Integer[] ordenar(Integer[] numeros) {
 		// Pendiente para la clase 4
 		return null;
 	}
