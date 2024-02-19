@@ -99,4 +99,43 @@ Cada día incluye los conceptos vistos y los ejercicios prácticos realizados, a
 * Lecturas recomendadas
   * Moodle: Pruebas y depuración en Java
   * Moodle: Estructuras de datos en Java
+  * Moodle: Algoritmos de ordenación
+
+### Día 5 (15 Febrero)
+
+Laboratorio 0
+
+Lecturas recomendadas: ver la clase anterior
+
+### Día 6 (19 Febrero)
+
+* Clase: Problemas de ordenación
+  * Práctico:
+    * Ordenación sobre el papel (I)
+  * Conceptos:
+    * Algoritmos de ordenación: inserción, selección, burbuja y merge sort
+    
+* Lecturas recomendadas
+  * Moodle: Algoritmos de ordenación
+
+### Día 7 (20 Febrero)
+
+* Clase: Problemas de ordenación
+  * Práctico:
+    * Ordenación sobre el papel (II)
+    * Implementaciones de todos los algoritmos
+  * Conceptos:
+    * Algoritmos de ordenación: quicksort 
+    * Ordenación de cualquier tipo de elemento
+* Lecturas recomendadas
+  * Moodle: Algoritmos de ordenación
+
+### Día 8 (21 Febrero)
+
+* Clase: Complejidad (I)
+  * Práctico:
+    * Análisis de código y de complejidad de casos simples
+  * Conceptos:
+    * Complejidad algorítmica
+* Lecturas recomendadas
   * Moodle: Complejidad
