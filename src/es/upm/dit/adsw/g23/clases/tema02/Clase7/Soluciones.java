@@ -87,15 +87,16 @@ public class Soluciones {
 	 * @param array
 	 */
 	static void insercion(int[] array) {
-		for(int pos_original=0; pos_original<array.length-1; pos_original++){
-			int pos_menor = pos_original;
-			for(int j=pos_menor+1; j<array.length; j++) {
-				if(array[j] < array[pos_menor]) {
-					pos_menor = j;
-				}
+		for(int pos_original=1; pos_original<array.length; pos_original++){
+			int elemento = array[pos_original];
+			int pos_final = pos_original;
+			// Desplaza a la derecha todos los elementos mayores
+			while(pos_final > 0 && array[pos_final-1] > elemento) {
+				array[pos_final] = array[pos_final-1];
+				pos_final--;
 			}
-			if(pos_menor != pos_original) {
-				intercambia(array, pos_menor, pos_original);
+			if(pos_final != pos_original) {
+				array[pos_final] = elemento;
 			}
 		}
 	}
