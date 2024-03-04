@@ -139,3 +139,42 @@ Lecturas recomendadas: ver la clase anterior
     * Complejidad algorítmica
 * Lecturas recomendadas
   * Moodle: Complejidad
+
+### Día 9 (26 Febrero)
+
+* Clase: Complejidad (II)
+  * Práctico:
+    * Análisis de código y de complejidad sobre ejemplos de código
+  * Conceptos:
+    * Complejidad algorítmica
+* Lecturas recomendadas
+  * Moodle: Complejidad
+* Ejercicios
+  * Análisis de código y cálculo de complejidad (`tema02.EjerciciosCalculo`)
+
+### Día 10 (27 Febrero)
+
+* Clase: Complejidad (III)
+  * Práctico:
+    * Análisis de código y complejidad en algoritmos de ordenación
+  * Conceptos:
+    * Complejidad en ordenación
+* Lecturas recomendadas
+  * Moodle: Algoritmos de ordenación
+* Ejercicios:
+  * Completar análisis de los algoritmos restantes
+  * Encontrar fallo en solución Clase 7
+
+### Día 11 (27 Febrero)
+
+Laboratorio 1
+
+### Día 12 (4 marzo)
+
+* Clase: Diccionarios (I)
+  * Conceptos:
+    * Diccionarios (Interfaz)
+    * Implementación de diccionario con un array
+    * Implementación de diccionario con arrays ordenados
+* Ejercicios:
+  * Implementar `DiccionarioArray` y `DiccionarioArrayOrdenado`
