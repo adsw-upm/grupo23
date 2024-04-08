@@ -178,3 +178,45 @@ Laboratorio 1
     * Implementación de diccionario con arrays ordenados
 * Ejercicios:
   * Implementar `DiccionarioArray` y `DiccionarioArrayOrdenado`
+
+### Día 13 (6 marzo)
+
+* Clase: Diccionarios (II)
+  * Conceptos:
+    * Implementación de diccionario con árboles binarios
+    * Implementación de diccionario con tablas Hash
+* Ejercicios:
+  * Implementar `DiccionarioArbol` y `DiccionarioHash`
+
+### Día 14 (11 marzo)
+
+* Clase de problemas de examen
+
+### Día 15 (13 marzo)
+
+* Laboratorio 2
+* Clase adicional de problemas de examen
+
+
+### Día 16 (3 abril)
+
+* Clase: Grafos (I)
+  * Conceptos
+      * Modelado de grafos
+      * Aplicaciones de grafos
+      * Terminología y categorización
+      * Análisis de complejidad de dos posibles implementaciones: lista de arcos y matriz de adyacencia
+      * Algoritmos sencillos (BFS, DFS)
+* Ejercicios
+  * Implementar la clase `Grafo` (Grafo no dirigido)
+    * Implementar la clase `Arco` (arco no dirigido)
+
+### Día 17 (8 abril)
+
+* Clase: Grafos (II)
+  * Conceptos:
+    * BFS y DFS en profundidad
+    * Implementación de BFS y DFS
+    * Detección de componentes conexas
+* Ejercicios:
+  * Implementar componentes conexas
