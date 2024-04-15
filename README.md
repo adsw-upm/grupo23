@@ -220,3 +220,13 @@ Laboratorio 1
     * Detección de componentes conexas
 * Ejercicios:
   * Implementar componentes conexas
+
+### Día 18 (15 abril)
+
+* Clase: Grafos (III)
+  * Conceptos:
+    * BFS y DFS en profundidad
+    * Implementación de BFS y DFS iterativa
+    * Implementación del algoritmo de Prim
+* Ejercicios:
+  * Implementar Prim
