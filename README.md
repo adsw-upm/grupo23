@@ -227,6 +227,23 @@ Laboratorio 1
   * Conceptos:
     * BFS y DFS en profundidad
     * Implementación de BFS y DFS iterativa
-    * Implementación del algoritmo de Prim
+    * Conceptos básicos del algoritmo de Prim
 * Ejercicios:
   * Implementar Prim
+
+### Día 19 (17 abril)
+
+* Clase: Grafos (IV)
+  * Conceptos:
+    * Prim en profundidad
+        * Análisis de complejidad
+        * Listas vs colas de prioridad
+    * El algoritmo de Dijkstra
+        * Introducción
+        * Problemas que resuelve
+        * Diferencias con Prim
+        * Limitaciones
+  * Ejercicios:
+    * Implementación del algoritmo de Dijkstra
+* Ejercicios:
+  * Implementar Dijkstra (con modelo de prácticas y con el modelo de este repositorio)
