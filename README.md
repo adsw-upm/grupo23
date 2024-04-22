@@ -243,7 +243,14 @@ Laboratorio 1
         * Problemas que resuelve
         * Diferencias con Prim
         * Limitaciones
-  * Ejercicios:
-    * Implementación del algoritmo de Dijkstra
 * Ejercicios:
   * Implementar Dijkstra (con modelo de prácticas y con el modelo de este repositorio)
+
+### Día 20 (22 abril)
+
+* Clase: Grafos (V)
+  * Ejercicios:
+    * Implementación del algoritmo de Dijkstra
+    * Problemas de examen
+* Ejercicios
+  * Repasar problemas de grafos
