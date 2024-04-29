@@ -1,3 +1,4 @@
+
 package es.upm.dit.adsw.g23.clases.tema02.grafos;
 
 import java.util.ArrayList;
@@ -34,6 +35,12 @@ public class GrafoLista<Nodo extends Comparable<? super Nodo>> implements Grafo<
 	@Override
 	public void addEdge(Nodo desde, Nodo hacia) {
 		addEdge(desde, hacia, 1.0);
+	}
+	
+	@Override
+	public void addEdge(Arco<Nodo> arco) {
+		Nodo uno = arco.uno();
+		this.addEdge(uno, arco.otro(uno), arco.peso);	
 	}
 
 	@Override

@@ -11,6 +11,7 @@ public interface Grafo<Nodo> {
 	void addEdge(Nodo desde, Nodo hacia);
 	
 	void addEdge(Nodo desde, Nodo hacia, double peso);
+	void addEdge(Arco<Nodo> arco);
 	
 	/**
 	 * 	Returns the edges incident on vertex v.
@@ -42,6 +43,7 @@ public interface Grafo<Nodo> {
 	 * @return
 	 */
 	List<Nodo> V();
+	
 	/**
 	 * 	Returns a string representation of the edge-weighted graph.
 	 * @return

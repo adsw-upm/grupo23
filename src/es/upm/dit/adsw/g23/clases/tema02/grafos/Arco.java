@@ -56,6 +56,5 @@ public class Arco<T> {
 	
 	public String toString() {
 		return this.nodo1 + "->" + this.nodo2 + " " + this.peso;
-	}
-		
+	}		
 }
