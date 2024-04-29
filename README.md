@@ -254,3 +254,21 @@ Laboratorio 1
     * Problemas de examen
 * Ejercicios
   * Repasar problemas de grafos
+
+### Día 20 (24 abril)
+
+* Clase: Concurrencia (I)
+  * Conceptos:
+    * Concurrencia
+    * Procesos y hebras
+    * Paralelismo
+
+
+### Día 21 (29 abril)
+
+* Clase: Concurrencia (II)
+  * Ejercicios:
+    * Conteo de palabras en ficheros
+      * Con cerrojos
+      * Con synchronized
+      * Con un monitor
