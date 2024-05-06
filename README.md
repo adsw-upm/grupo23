@@ -269,6 +269,19 @@ Laboratorio 1
 * Clase: Concurrencia (II)
   * Ejercicios:
     * Conteo de palabras en ficheros
+      * Sin sincronización
       * Con cerrojos
       * Con synchronized
       * Con un monitor
+
+### Día 22 (6 mayo)
+
+* Clase: COncurrencia (III)
+  * Conceptos:
+    * Sincronización condicional
+    * `wait` y `notify` / `notifyAll`
+    * Patrón productor / consumidor
+  * Repaso:
+    * Contador
+  * Ejercicios:
+    * Contador productor / consumidor
