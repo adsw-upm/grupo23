@@ -276,7 +276,7 @@ Laboratorio 1
 
 ### Día 22 (6 mayo)
 
-* Clase: COncurrencia (III)
+* Clase: Concurrencia (III)
   * Conceptos:
     * Sincronización condicional
     * `wait` y `notify` / `notifyAll`
@@ -285,3 +285,16 @@ Laboratorio 1
     * Contador
   * Ejercicios:
     * Contador productor / consumidor
+
+### Día 23 (13 mayo)
+
+* Clase: Concurrencia (III)
+  * Ejercicios:
+    * Filósofos:
+        * Secuenciales
+        * Concurrentes
+        * Sin interbloqueo
+        * Sin bloqueo vivo
+  * Conceptos:
+    * Interbloqueo
+    * Bloqueo vivo

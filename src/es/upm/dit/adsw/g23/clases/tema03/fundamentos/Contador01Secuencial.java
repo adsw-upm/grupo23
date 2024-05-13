@@ -1,4 +1,4 @@
-package es.upm.dit.adsw.g23.clases.tema03;
+package es.upm.dit.adsw.g23.clases.tema03.fundamentos;
 
 import java.io.IOException;
 import java.nio.file.Files;
