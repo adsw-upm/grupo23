@@ -37,5 +37,12 @@ class TestContador {
 		Map<String, Integer> veces = Contador04Monitor.contar("data/Ulysses.txt");
 		comprobarVeces(veces);
 	}
+	
+	
+	@Test
+	void test05() throws IOException {
+		Map<String, Integer> veces = Contador05ProductorConsumidor.contar("data/Ulysses.txt");
+		comprobarVeces(veces);
+	}
 
 }
