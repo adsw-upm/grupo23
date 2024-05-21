@@ -298,3 +298,29 @@ Laboratorio 1
   * Conceptos:
     * Interbloqueo
     * Bloqueo vivo
+
+## Día 24 (20 mayo)
+
+* Clase: Concurrencia (IV)
+  * Conceptos:
+    * Inanición
+  * Ejercicios:
+    * Examen P2 Junio 2022
+
+## Día 25 (22 mayo)
+
+* Ejercicios de examen
+  * 20210608_P2 - Lectores y escritores
+  * 20210707_F1 - Aterrizaje aviones
+  * 20230605_P2_sol - P1 (grupos de hebras) + P2 (propagación en grafos)
+  * 20190628_F1 - Coloreado de grafos -> Grafos
+  * 20210419_P1 - Ciclos -> Grafos
+  * 20220419_P1 - Pregunta 1 (multigrafo de bancos)
+
+## Clase ejercicios
+
+* 13 de junio de 2018 (examenP2-2018-20230706_P2_sol_final.pdfoluciones.pdf) - Preguntas 1 y 2
+* 8 de junio de 2017 (ADSW_P2-2017-soluciones.pdf) - Pregunta 1
+* 6 de Julio de 2023 (20230706_P2_sol_final.pdf) - Preguntas 1 y 2
+
+
