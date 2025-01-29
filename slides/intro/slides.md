@@ -8,13 +8,12 @@ figPrefix: ""
 
 ---
 
-\setbeamertemplate{caption}[default]
-
 # Introducción
 
 ## Objetivos
 
 - Entender el contexto de ADSW y PROG
+- Aprender a afrontar problemas de desarrollo de software
 
 ---
 
