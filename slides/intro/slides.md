@@ -92,7 +92,12 @@ figPrefix: ""
 
 ## Problema
 
-Contar el número de veces que se repite una línea en un fichero
+Contar el número de veces que se repite alguna línea en un fichero
+
+
+## Problema
+
+Contar el número de veces que se repite alguna línea en un fichero
 
 Pasos:
 
