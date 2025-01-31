@@ -29,19 +29,23 @@ El código del repositorio se divide en dos paquetes principales:
 * Conceptos: Repaso Java
   * Orientación a objetos
   * Estructuras de datos básicas (arrays, listas, conjuntos, diccionarios)
-  * Pruebas unitarias
+  * Pruebas unitarias (junit)
 * Ejercicios
-  * Encontrar líneas duplicadas en un fichero
+  * Encontrar líneas duplicadas en un fichero (varias implementaciones)
+  * Pruebas básicas usando eclipse y junit
 * Ejercicios en casa:
-  * Encontrar líneas duplicadas:
-    * Usando una lista
-    * Usando un conjunto
-    * Usando un diccionario
-    * Usando un array
-  * Contar cuántas veces se repite cada línea:
+  * Encontrar líneas duplicadas a partir de un fichero:
+    * Usando sólo una lista (List)
+    * Usando una lista y un conjunto (Set)
+    * Usando una lista y un diccionario (Map)
+    * Opcional: Usando sólo un conjunto
+    * Opcional: Usar una clase común para las implementaciones anteriores (lista, conjunto, diccionario)
+    * Opcional: usar un interfaz común para las implementaciones anteriores (lista, conjunto, diccionario)
+  * Analizar los programas de clase y de ejercicios para líneas repetidas:
+    * Evaluar informalmente su eficiencia. ¿Hay alguno (claramente) mejor?, ¿por qué?
+    * Opcional: Intentar encontrar optimizaciones. ¿Hay algo que se pueda hacer con menos operaciones?
+  * Contar cuántas veces se repite cada línea, y devolver la palabra que más se repite (si hay empate, cualquiera de ellas)
     * Usando un diccionario
     * Usando dos listas
     * Usando una lista
-  * Analizar los programas de clase y de ejercicios:
-    * Evaluar informarlmente su eficiencia. ¿Hay alguno (claramente) mejor?, ¿por qué?
-    * Intentar encontrar optimizaciones (operaciones innecesarias)
+    * Opcional: devolver la palabra y el número de veces que se repite
