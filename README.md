@@ -27,7 +27,16 @@ El código del repositorio se divide en dos paquetes principales:
 ### Día 1 (31 enero)
 
 * Conceptos: Repaso Java
-  * Orientación a objetos
+  * Orientación a objetos (en Java)
+* Ejercicios
+  * Encontrar líneas duplicadas en un fichero
+* Ejercicios en casa:
+  * Encontrar líneas duplicadas a partir de un fichero
+  * Arreglar la implementación de [LineasRepetidasClase](./src/es/upm/dit/adsw/g23/clases/tema01/LineasRepetidasClase.java).
+
+### Día 2 (3 enero)
+
+* Conceptos: Repaso Java
   * Estructuras de datos básicas (arrays, listas, conjuntos, diccionarios)
   * Pruebas unitarias (junit)
 * Ejercicios
