@@ -43,18 +43,21 @@ El código del repositorio se divide en dos paquetes principales:
   * Encontrar líneas duplicadas en un fichero (varias implementaciones)
   * Pruebas básicas usando eclipse y junit
 * Ejercicios en casa:
+  * Desarrollar un método que acepte una lista de números enteros y devuelva otra lista con los mismos números, pero ordenados de mayor a menor.
   * Encontrar líneas duplicadas a partir de un fichero:
     * Usando sólo una lista (List)
     * Usando una lista y un conjunto (Set)
     * Usando una lista y un diccionario (Map)
-    * Opcional: Usando sólo un conjunto
-    * Opcional: Usar una clase común para las implementaciones anteriores (lista, conjunto, diccionario)
-    * Opcional: usar un interfaz común para las implementaciones anteriores (lista, conjunto, diccionario)
   * Analizar los programas de clase y de ejercicios para líneas repetidas:
-    * Evaluar informalmente su eficiencia. ¿Hay alguno (claramente) mejor?, ¿por qué?
-    * Opcional: Intentar encontrar optimizaciones. ¿Hay algo que se pueda hacer con menos operaciones?
-  * Contar cuántas veces se repite cada línea, y devolver la palabra que más se repite (si hay empate, cualquiera de ellas)
-    * Usando un diccionario
-    * Usando dos listas
-    * Usando una lista
-    * Opcional: devolver la palabra y el número de veces que se repite
+    * Intentar evaluar informalmente su eficiencia. ¿Hay alguno (claramente) mejor?, ¿por qué?
+  * Opcional:
+    * Encontrar líneas duplicadas a partir de un fichero:
+        * Usando sólo un conjunto
+        * Usar una clase común para las implementaciones anteriores (encontrar usando lista, conjunto, diccionario...)
+        * Usar un interfaz común para las implementaciones anteriores (encontrar usando lista, conjunto, diccionario...)
+    * Contar cuántas veces se repite cada línea, y devolver la palabra que más se repite (si hay empate, cualquiera de ellas)
+        * Usando un diccionario
+        * Usando dos listas
+        * Usando una lista
+        * Devolver tanto la palabra como el número de veces que se repite
+    * Intentar encontrar optimizaciones en todos los algoritmos implementados. ¿Hay algo que se pueda hacer con menos operaciones?
