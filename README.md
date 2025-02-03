@@ -43,6 +43,7 @@ El código del repositorio se divide en dos paquetes principales:
   * Encontrar líneas duplicadas en un fichero (varias implementaciones)
   * Pruebas básicas usando eclipse y junit
 * Ejercicios en casa:
+  * Encontrar fallos y arreglar `LineasRepetidas.java`
   * Desarrollar un método que acepte una lista de números enteros y devuelva otra lista con los mismos números, pero ordenados de mayor a menor.
   * Encontrar líneas duplicadas a partir de un fichero:
     * Usando sólo una lista (List)
