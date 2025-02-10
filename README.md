@@ -62,3 +62,20 @@ El código del repositorio se divide en dos paquetes principales:
         * Usando una lista
         * Devolver tanto la palabra como el número de veces que se repite
     * Intentar encontrar optimizaciones en todos los algoritmos implementados. ¿Hay algo que se pueda hacer con menos operaciones?
+
+### Día 3 (10 enero)
+
+* Ejercicios
+  * Desarrollar un método que acepte una lista de números enteros y devuelva otra lista con los mismos números, pero ordenados de mayor a menor.
+    * Con una nueva lista (selección)
+      * Sin repetición
+      * Con repetición
+    * Reutilizando la lista (selección, inserción, burbuja)
+* Ejercicios en casa:
+  * Implementar los algoritmos vistos en clase
+    * Desarrollar pruebas generales
+    * Probar las implementaciones con las pruebas
+  * Comparar el tiempo de ejecución de las implementaciones (benchmarking)
+* Repasar transparencias:
+  * Estructuras de datos
+  * Depuración
