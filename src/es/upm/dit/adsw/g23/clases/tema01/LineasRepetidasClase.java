@@ -21,7 +21,7 @@ public class LineasRepetidasClase {
 			String linea = lineas[i];
 			for(int j=0; j<i; j++) {
 				String otra = lineas[j];
-				if(linea == otra) {
+				if(linea.equals(otra)) {
 					repetidas += 1;
 					break;
 				}
@@ -46,9 +46,11 @@ public class LineasRepetidasClase {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		String[] lineas = leerLineas("data/envios.txt");
+		String[] lineas = leerLineas("data/enviosClase.txt");
+//		System.out.println("# de líneas " + lineas.length);
 		int repetidas = contarRepetidas(lineas);
-		System.out.println("Se han repetido: " + repetidas);
+		System.out.println("Resultado de  contar: " + repetidas + " y esperaba 2");
+		
 	}
 
 }

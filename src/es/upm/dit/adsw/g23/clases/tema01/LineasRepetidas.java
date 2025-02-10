@@ -14,7 +14,6 @@ public class LineasRepetidas {
 						System.out.println("Línea repetida" + lineas[i]);
 					}
 				}
-				
 			}
 		}
 	}

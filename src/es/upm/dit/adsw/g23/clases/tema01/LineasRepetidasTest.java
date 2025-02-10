@@ -2,6 +2,7 @@ package es.upm.dit.adsw.g23.clases.tema01;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +13,15 @@ class LineasRepetidasTest {
 	@Test
 	void testSinDuplicados() {
 		List<String> lineas = new ArrayList<String>();
+		String[] array = {"A"};
+		lineas.size();
+		if(array.length == 0) {
+			
+		};
+		
+		
+		
+		
 		lineas.add("01");
 		lineas.add("02");
 		lineas.add("03");
