@@ -79,3 +79,12 @@ El código del repositorio se divide en dos paquetes principales:
 * Repasar transparencias:
   * Estructuras de datos
   * Depuración
+
+### Día 4 (12 enero)
+
+* Conceptos
+  * Complejidad (I)
+* Ejercicios
+  * Describir qué hacen los 4 algoritmos implementados en `CodigoClase.java`
+* Ejercicios en casa:
+  * Intentar estimar la complejidad de los 4 algoritmos vistos
