@@ -1,5 +1,8 @@
 package es.upm.dit.adsw.g23.clases.tema02;
 
+/**
+ * Código usado en la clase del 17 de febrero
+ */
 public class CalculoComplejidad {
 	public static boolean buscar1(int k, int[] numeros) {
 		boolean encontrado = false;
