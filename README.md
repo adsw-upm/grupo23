@@ -34,7 +34,7 @@ El código del repositorio se divide en dos paquetes principales:
   * Encontrar líneas duplicadas a partir de un fichero
   * Arreglar la implementación de [LineasRepetidasClase](./src/es/upm/dit/adsw/g23/clases/tema01/LineasRepetidasClase.java).
 
-### Día 2 (3 enero)
+### Día 2 (3 febrero)
 
 * Conceptos: Repaso Java
   * Estructuras de datos básicas (arrays, listas, conjuntos, diccionarios)
@@ -63,7 +63,7 @@ El código del repositorio se divide en dos paquetes principales:
         * Devolver tanto la palabra como el número de veces que se repite
     * Intentar encontrar optimizaciones en todos los algoritmos implementados. ¿Hay algo que se pueda hacer con menos operaciones?
 
-### Día 3 (10 enero)
+### Día 3 (10 febrero)
 
 * Ejercicios
   * Desarrollar un método que acepte una lista de números enteros y devuelva otra lista con los mismos números, pero ordenados de mayor a menor.
@@ -80,7 +80,7 @@ El código del repositorio se divide en dos paquetes principales:
   * Estructuras de datos
   * Depuración
 
-### Día 4 (12 enero)
+### Día 4 (12 febrero)
 
 * Conceptos
   * Complejidad (I)
@@ -88,3 +88,13 @@ El código del repositorio se divide en dos paquetes principales:
   * Describir qué hacen los 4 algoritmos implementados en `CodigoClase.java`
 * Ejercicios en casa:
   * Intentar estimar la complejidad de los 4 algoritmos vistos
+
+### Día 5 (17 enero)
+
+* Conceptos
+  * Complejidad (II)
+  * Orden de complejidad
+* Ejercicios
+  * [tema02.EjemplosCalculo.java](./src/es/upm/dit/adsw/g23/clases/tema02/CalculoComplejidad.java)
+* Ejercicios en casa:
+  * Completar los ejercicios de [tema02.EjemplosCalculo.java](./src/es/upm/dit/adsw/g23/ejercicios/tema02/EjemplosCalculo.java)
