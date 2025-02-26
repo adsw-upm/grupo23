@@ -89,7 +89,7 @@ El código del repositorio se divide en dos paquetes principales:
 * Ejercicios en casa:
   * Intentar estimar la complejidad de los 4 algoritmos vistos
 
-### Día 5 (17 enero)
+### Día 5 (17 febrero)
 
 * Conceptos
   * Complejidad (II)
@@ -98,3 +98,25 @@ El código del repositorio se divide en dos paquetes principales:
   * [tema02.EjemplosCalculo.java](./src/es/upm/dit/adsw/g23/clases/tema02/CalculoComplejidad.java)
 * Ejercicios en casa:
   * Completar los ejercicios de [tema02.EjemplosCalculo.java](./src/es/upm/dit/adsw/g23/ejercicios/tema02/EjemplosCalculo.java)
+
+### Día 6 (19 febrero)
+
+### Día 7 (24 febrero)
+
+* Conceptos
+  * Complejidad (III)
+  * Repaso de todos los conceptos
+* Ejercicios
+  * [EjercicioPuntoClase.java](./src/es/upm/dit/adsw/g23/ejercicios/tema02/EjercicioPuntoClase.java)
+
+### Día 8 (26 febrero)
+
+* Conceptos
+  * Ordenación (I)
+      * Bubble sort (repaso)
+      * Insertion sort (repaso)
+      * Selection sort (repaso)
+      * Merge sort
+      * Quicksort
+* Ejercicios
+  * Implementar todos los algoritmos vistos
