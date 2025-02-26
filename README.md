@@ -120,3 +120,4 @@ El código del repositorio se divide en dos paquetes principales:
       * Quicksort
 * Ejercicios
   * Implementar todos los algoritmos vistos
+  * Usar [visualgo](https://visualgo.net/en/sorting) para visualizar los algoritmos de ordenación vistos en clase
