@@ -101,6 +101,8 @@ El código del repositorio se divide en dos paquetes principales:
 
 ### Día 6 (19 febrero)
 
+Laboratorio 1.
+
 ### Día 7 (24 febrero)
 
 * Conceptos
@@ -121,3 +123,66 @@ El código del repositorio se divide en dos paquetes principales:
 * Ejercicios
   * Implementar todos los algoritmos vistos
   * Usar [visualgo](https://visualgo.net/en/sorting) para visualizar los algoritmos de ordenación vistos en clase
+
+### Día 9 (3 marzo)
+
+* Conceptos
+  * Ordenación (II)
+      * Bubble sort (complejidad)
+      * Insertion sort (complejidad)
+      * Selection sort (complejidad)
+      * Quick sort (complejidad)
+      * ~~Merge sort~~ (falta de tiempo)
+* Ejercicios
+  * Implementar todos los algoritmos vistos
+  * Estimar la complejidad de los algoritmos vistos
+    * Razonar caso mejor, peor y medio
+
+### Día 10 (5 marzo)
+
+* Conceptos
+  * Ordenación (III)
+      * Repaso + complejidad de los ya vistos
+      * Quicksort (repaso rápido + complejidad)
+  * Diccionarios (I)
+      * Qué es un diccionario - la interfaz Diccionario
+      * Diccionario con array
+      * Diccionario con array ordenado
+      * Árboles binarios de búsqueda
+* Ejercicios
+  * Implementar todos los algoritmos vistos
+
+### Día 11 (10 marzo)
+
+* Conceptos
+  * Diccionarios (II)
+    * Diccionario con array (repaso + complejidad)
+    * Diccionario con array ordenado (repaso + complejidad)
+    * Árboles binarios de búsqueda (repaso + complejidad)
+* Ejercicios
+  * Implementar todos los algoritmos vistos
+  * Estimar la complejidad
+    * De cada método (get, put, remove)
+    * En cada alternativa vista (array, array ordenado, árbol)
+    * En caso mejor, peor, medio
+
+### Día 12 (12 marzo)
+
+Laboratorio 2.
+
+### Día 13 (17 marzo)
+
+* Conceptos
+  * Diccionarios (III)
+    * Repaso
+    * Tablas hash
+* Ejercicios
+  * Implementar todos los algoritmos vistos
+  * Estimar la complejidad
+    * De cada método (get, put, remove)
+    * En cada alternativa vista (array, array ordenado, árbol)
+    * En caso mejor, peor, medio
+
+### Día 14 (19 marzo)
+
+* Ejercicios de examen
