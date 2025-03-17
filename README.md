@@ -177,12 +177,22 @@ Laboratorio 2.
     * Repaso
     * Tablas hash
 * Ejercicios
-  * Implementar todos los algoritmos vistos
-  * Estimar la complejidad
-    * De cada método (get, put, remove)
-    * En cada alternativa vista (array, array ordenado, árbol)
-    * En caso mejor, peor, medio
+  * Implementar todos los algoritmos restantes (hashmap)
+  * Estimar la complejidad de los algoritmos restantes
+  * Ejercicios examen
+      * 2019-P1r: Pregunta 2: ListaEnlazadaOrdenada
+      * 2017-P1: Pregunta 2: BST en array
+      * 2012-F1:  Ejercicio 1: Algoritmos
+      * 2018-F2:  1.2: Complejidad
+      * 2015-F2:  Pregunta 1: Complejidad
+      * 2016-P1r: Pregunta 1: Algoritmos
+      * 2016-F2  Pregunta 2 P2: Algoritmos
+      * 20220623-P1-sol: Pregunta 1: Algoritmos
+      * 20210608-P1R: Pregunta 1
+      * 2018-F2: Pregunta 2
+      * 20210707-F1: Pregunta 2 : complejidad
+      * 20210608-F1: Pregunta 2
 
 ### Día 14 (19 marzo)
 
-* Ejercicios de examen
+* Resolución de ejercicios de examen
