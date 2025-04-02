@@ -196,6 +196,9 @@ Laboratorio 2.
 ### Día 14 (19 marzo)
 
 * Resolución de ejercicios de examen
+   - [x] 2012-F1:  Ejercicio 1: Algoritmos
+   - [x] 2012-F1:  Ejercicio 2: Ordenación
+   - [x] 2019-P1r: Pregunta 2: ListaEnlazadaOrdenada
 
 ### Día 15 (2 abril)
 
