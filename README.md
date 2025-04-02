@@ -202,6 +202,10 @@ Laboratorio 2.
 
 ### Día 15 (2 abril)
 
+![](seguimiento.png)
+
+URL: https://short.upm.es/xbguu
+
 * HackerRank:
     * [Java](https://www.hackerrank.com/domains/java)
         * [Stdin/out](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem)
