@@ -202,7 +202,7 @@ Laboratorio 2.
 
 ### Día 15 (2 abril)
 
-![](seguimiento.png)
+![](seguimiento2025.png)
 
 URL: https://short.upm.es/xbguu
 
