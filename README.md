@@ -196,3 +196,24 @@ Laboratorio 2.
 ### Día 14 (19 marzo)
 
 * Resolución de ejercicios de examen
+
+### Día 15 (2 abril)
+
+* HackerRank:
+    * [Java](https://www.hackerrank.com/domains/java)
+        * [Stdin/out](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem)
+        * [Java ArrayList](https://www.hackerrank.com/challenges/java-arraylist)
+    * [Algoritmos](https://www.hackerrank.com/domains/algorithms)
+        * [Grading students](https://www.hackerrank.com/challenges/grading/problem)
+    * [Estructuras de Datos](https://www.hackerrank.com/domains/data-structures)
+        * [Insert node in a singly linked list](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true)
+        * [Reverse a linked list](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem)
+
+* Exercism:
+    * [Binary Search Tree (medio) - Ejemplo en clase](https://exercism.org/tracks/java/exercises/binary-search-tree)
+    * [RNA (fácil)](https://exercism.org/tracks/java/exercises/rna-transcription)
+    * [Linked List (medio)](https://exercism.org/tracks/java/exercises/linked-list)
+    * [Flatten Array (medio)](https://exercism.org/tracks/java/exercises/flatten-array)
+    * [Conway's Game of Life (medio)](https://exercism.org/tracks/java/exercises/game-of-life)
+* Advent of Code
+   * [2024](https://adventofcode.com/2024)
