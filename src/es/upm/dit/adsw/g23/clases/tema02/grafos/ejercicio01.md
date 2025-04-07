@@ -2,11 +2,16 @@
 
 Dado un grafo representado por una interfaz `Grafo`, que contiene nodos conectados con aristas, escribe una función que determine si hay un camino entre dos nodos del grafo.
 
+Describe los métodos básicos que debe tener la interfaz `Grafo` para poder implementar la función pedida.
+
 
 ### Requisitos:
 
 - Se debe utilizar la interfaz `Grafo` como base, para asegurar que la solución sea independiente de la implementación concreta del grafo.
-- Se debe crear una función que reciba los nodos de inicio y destino, y determine si existe un camino entre ellos.
+- Se debe crear una función que reciba el grafo y los nodos de inicio y destino. Esta función determina si existe un camino entre ellos.
+- La interfaz `Grafo` no se proporciona directamente. Se deben definir métodos generales en esta interfaz que permitan implementar el método pedido. Estos métodos deben ser generales y básicos.
+Es decir, darán estos métodos darán acceso a nodos y arcos del grafo, pero no realizarán cálculos adicionales.
+p.e., no se incluirán métodos que calculen el camino más corto entre dos nodos, o que detectend si el grafo es conexo.
 
 
 ### Solución
