@@ -232,3 +232,38 @@ URL: https://short.upm.es/xbguu
 * Ejercicios:
     * [Encontrar camino entre nodos](./src/es/upm/dit/adsw/g23/clases/tema02/grafos/ejercicio01.md)
     * Modificar la definición de `Grafo` para incluir pesos en las aristas
+
+### Día 17 (9 abril)
+
+* Clase:
+    * Teoría: Grafos
+        * Camino + arcos 
+        * Árbol de expansión
+        * Prim y Dijkstra
+    * Ejercicios:
+        * [Encontrar nodos a distancia dada](./src/es/upm/dit/adsw/g23/clases/tema02/grafos/ejercicio02.md)
+* Problemas para casa:
+    * Grafos:
+        * Implementar Prim. Probar con los ejemplos de las transparencias.
+        * Implementar Dijkstra. Probar con los ejemplos de las transparencias.
+    * Java
+        * [Phone Book en HackerRank](https://www.hackerrank.com/challenges/phone-book/problem?isFullScreen=true)
+        * [Java Inheritance I en HackerRank](https://www.hackerrank.com/challenges/java-inheritance-1/problem?isFullScreen=true)
+        * [Java Inheritance II en HackerRank](https://www.hackerrank.com/challenges/java-inheritance-2/problem?isFullScreen=true)
+        * [Java Interface en HackerRank](https://www.hackerrank.com/challenges/java-interface/problem?isFullScreen=true)
+        * [Matrix en exercism](https://exercism.org/tracks/java/exercises/matrix)
+        * [Game of Life en exercism](https://exercism.org/tracks/java/exercises/game-of-life)
+    * Algoritmos
+        * [Dividir la cuenta](https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true)
+        * [Gatos y un ratón](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?isFullScreen=true)
+        * [Diamante](https://exercism.org/tracks/java/exercises/diamond)
+        * [Conversión de proteínas](https://exercism.org/tracks/java/exercises/protein-translation)
+        * [Paréntesis](https://exercism.org/tracks/java/exercises/matching-brackets)
+        * [Cifrado atbash](https://exercism.org/tracks/java/exercises/atbash-cipher)
+        * [Dar la vuelta al árbol (avanzado)](https://exercism.org/tracks/java/exercises/pov)
+    * Estructuras de datos
+        * [Nodo en posición en una lista enlazada](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list?isFullScreen=true)
+        * [Borrar un Nodo](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list?isFullScreen=true)
+        * [Comparar dos listas enlazadas](https://www.hackerrank.com/challenges/compare-two-linked-lists?isFullScreen=true)
+        * [Árbol en orden](https://www.hackerrank.com/challenges/tree-inorder-traversal?isFullScreen=true)
+        * [Mejorar el código de creación de árbol (avanzado)](https://exercism.org/tracks/java/exercises/tree-building). El ejercicio consiste en hacer más rápido el método. Para ello, hay que analizar qué hacer el código, y ver qué partes son mejorables.
