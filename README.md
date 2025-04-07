@@ -224,3 +224,11 @@ URL: https://short.upm.es/xbguu
     * [Conway's Game of Life (medio)](https://exercism.org/tracks/java/exercises/game-of-life)
 * Advent of Code
    * [2024](https://adventofcode.com/2024)
+
+### Día 16 (7 abril)
+
+* Clase:
+    * Grafos: definición de grafo
+* Ejercicios:
+    * [Encontrar camino entre nodos](./src/es/upm/dit/adsw/g23/clases/tema02/grafos/ejercicio01.md)
+    * Modificar la definición de `Grafo` para incluir pesos en las aristas
