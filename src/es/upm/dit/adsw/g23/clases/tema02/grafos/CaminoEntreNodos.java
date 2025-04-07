@@ -22,8 +22,10 @@ public class CaminoEntreNodos {
         // Recorrer los arcos del nodo actual
         for (String siguiente : grafo.adj(nodoActual)) {
             // Si el destino del arco no ha sido visitado, explorar recursivamente
-            if (!visitados.contains(siguiente) && buscar(grafo, siguiente, destino, visitados)) {
-                return true;
+            if (!visitados.contains(siguiente)) {
+            	if(buscar(grafo, siguiente, destino, visitados)) {
+            		return true;
+            	}
             }
         }
 
