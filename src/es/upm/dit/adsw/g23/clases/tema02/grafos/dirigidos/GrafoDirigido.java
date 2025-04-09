@@ -9,4 +9,6 @@ public interface GrafoDirigido {
     
     // Método para agregar un arco de un nodo a otro.
     void agregarArco(String origen, String destino, float peso);
+
+    List<String> vertices();
 }

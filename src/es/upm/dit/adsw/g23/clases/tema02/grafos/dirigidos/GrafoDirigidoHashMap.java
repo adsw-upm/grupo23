@@ -19,6 +19,11 @@ public class GrafoDirigidoHashMap implements GrafoDirigido {
     public List<ArcoDirigido> adj(String nodo) {
         return grafo.getOrDefault(nodo, new ArrayList<>());
     }
+
+    @Override
+    public List<String> vertices() {
+	return new ArrayList<>(grafo.keySet());
+    }
     
     public static void main(String[] args) {
         // Crear un grafo utilizando la implementación concreta
