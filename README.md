@@ -239,7 +239,7 @@ URL: https://short.upm.es/xbguu
     * Teoría: Grafos
         * Camino + arcos 
         * Representación de grafos (muy breve)
-        * BFS (búsqueda en anchura) y DFS (búsqueda en profundidad)
+        * [BFS (búsqueda en anchura) y DFS (búsqueda en profundidad) (ver código de ejemplo)](./src/es/upm/dit/adsw/g23/clases/tema02/grafos/BFSyDFS.java)
         * Árbol de expansión
         * Prim y Dijkstra
         * Colas de prioridad
