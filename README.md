@@ -238,10 +238,20 @@ URL: https://short.upm.es/xbguu
 * Clase:
     * Teoría: Grafos
         * Camino + arcos 
+        * Representación de grafos (muy breve)
+        * BFS (búsqueda en anchura) y DFS (búsqueda en profundidad)
         * Árbol de expansión
         * Prim y Dijkstra
+        * Colas de prioridad
+        * Complejidad de Prim y Dijkstra (pincelada)
     * Ejercicios:
+        * [Análisis de la solución a encontrar camino entre nodos](./src/es/upm/dit/adsw/g23/clases/tema02/grafos/ejercicio01.md)
         * [Encontrar nodos a distancia dada](./src/es/upm/dit/adsw/g23/clases/tema02/grafos/ejercicio02.md)
+* Teoría a repasar/ver en las transparencias:
+    * Nomenclatura y definiciones de grafos (árboles de expansión, camino (mínimo), ciclos, grafos conexos, matriz de adyacencia)
+    * Interfaces/clases de grafos en las transparencias y en la práctica
+    * Implementación de grafos (matriz de adyacencia, lista de arcos...)
+    * Complejidad de Prim y Dijkstra (en detalle)
 * Problemas para casa:
     * Grafos:
         * Implementar Prim. Probar con los ejemplos de las transparencias.
