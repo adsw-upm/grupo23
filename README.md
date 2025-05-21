@@ -282,9 +282,8 @@ URL: https://short.upm.es/xbguu
 ### 21 de abril
 
 * Ejercicios de examen
+  * Hoja de problemas de concurrencia (moodle)
+  * Hoja de problemas adicionales de concurrencia (moodle)
   * 20210608_P2 - Lectores y escritores
   * 20210707_F1 - Aterrizaje aviones
   * 20230605_P2_sol - P1 (grupos de hebras) + P2 (propagación en grafos)
-  * 20190628_F1 - Coloreado de grafos -> Grafos
-  * 20210419_P1 - Ciclos -> Grafos
-  * 20220419_P1 - Pregunta 1 (multigrafo de bancos)
